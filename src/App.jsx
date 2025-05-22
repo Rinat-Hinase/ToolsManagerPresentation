@@ -5,7 +5,10 @@ import SectionWrapper from "./components/SectionWrapper";
 
 // ✅ Importar todos los componentes reales
 import Portada from "./sections/Portada";
-import Empresa from "./sections/Empresa";
+import EmpresaQuienes from "./sections/empresa/Quienes";
+import EmpresaMision from "./sections/empresa/Mision";
+import EmpresaVision from "./sections/empresa/Vision";
+import EmpresaValores from "./sections/empresa/Valores";
 import Personal from "./sections/Personal";
 import Planteamiento from "./sections/Planteamiento";
 import Objetivos from "./sections/Objetivos";
@@ -59,7 +62,14 @@ const sectionColors = {
 // 🧩 Secciones con ID y componentes reales
 const sections = [
   { id: "portada", title: "Portada", Component: Portada },
-  { id: "empresa", title: "Empresa", Component: Empresa },
+  {
+    id: "empresa-quienes",
+    title: "¿Quiénes Somos?",
+    Component: EmpresaQuienes,
+  },
+  { id: "empresa-mision", title: "Misión", Component: EmpresaMision },
+  { id: "empresa-vision", title: "Visión", Component: EmpresaVision },
+  { id: "empresa-valores", title: "Valores", Component: EmpresaValores },
   { id: "personal", title: "Personal", Component: Personal },
 
   {
