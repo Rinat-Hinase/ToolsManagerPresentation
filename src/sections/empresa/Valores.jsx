@@ -65,7 +65,7 @@ export default function EmpresaValores() {
 
       {/* Pie decorativo opcional */}
       <p className="absolute bottom-6 text-xs text-[#d3e1f1]">
-        AspideCode · 2025
+        AspireCode · 2025
       </p>
     </div>
   );

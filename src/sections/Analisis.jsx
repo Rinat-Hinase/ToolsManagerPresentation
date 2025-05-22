@@ -28,7 +28,7 @@ export default function Analisis() {
       {/* Introducción narrativa */}
       <div className="max-w-4xl mx-auto mb-12 text-gray-200 text-lg leading-relaxed text-center px-4">
         En esta fase crucial,{" "}
-        <span className="text-teal-300 font-semibold">AspideCode</span> se
+        <span className="text-teal-300 font-semibold">AspireCode</span> se
         adentra en el contexto real de{" "}
         <span className="italic">Ferretería LALOX</span>, realizando un
         diagnóstico integral de su funcionamiento. Esto permite definir con
@@ -83,7 +83,7 @@ export default function Analisis() {
 
       {/* Pie decorativo opcional */}
       <p className="absolute bottom-6 text-xs text-[#d3e1f1]">
-        AspideCode · 2025
+        AspireCode · 2025
       </p>
     </div>
   );

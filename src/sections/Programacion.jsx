@@ -36,7 +36,7 @@ export default function Programacion() {
             </h2>
             <p className="text-sm text-gray-200">
               Basado en el documento de diseño, el equipo de{" "}
-              <strong>AspideCode</strong> procede a la implementación funcional
+              <strong>AspireCode</strong> procede a la implementación funcional
               del sistema <strong>ToolsManager</strong>. Cada módulo es
               codificado con enfoque en claridad, mantenimiento y reutilización.
             </p>
@@ -109,7 +109,7 @@ export default function Programacion() {
 
       {/* Pie decorativo */}
       <p className="absolute bottom-6 text-xs text-[#d3e1f1]">
-        AspideCode · 2025
+        AspireCode · 2025
       </p>
     </div>
   );

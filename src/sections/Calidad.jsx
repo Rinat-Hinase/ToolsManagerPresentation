@@ -76,7 +76,7 @@ export default function Calidad() {
 
       {/* Pie decorativo */}
       <p className="mt-12 text-xs text-[#d3e1f1] text-center">
-        AspideCode · 2025
+        AspireCode · 2025
       </p>
     </div>
   );

@@ -11,8 +11,8 @@ import {
 const pasos = [
   {
     icono: CheckBadgeIcon,
-    titulo: "Entrega inicial",
-    descripcion: "Constantes cambios desde su entrega inicial.",
+    titulo: "Muestra inicial",
+    descripcion: "Constantes cambios desde su muestra inicial.",
   },
   {
     icono: ChatBubbleOvalLeftEllipsisIcon,
@@ -87,7 +87,7 @@ export default function Cierre() {
 
       {/* Pie decorativo */}
       <p className="mt-16 text-xs text-[#d3e1f1] text-center">
-        AspideCode · Proyecto activo en mantenimiento y expansión
+        AspireCode · Proyecto activo en mantenimiento y expansión
       </p>
     </div>
   );

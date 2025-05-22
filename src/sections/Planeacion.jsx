@@ -32,7 +32,7 @@ const elementos = [
     titulo: "Roles & Recursos",
     icono: UsersIcon,
     detalle:
-      "Organigrama del proyecto y asignación de responsabilidades para el equipo de AspideCode.",
+      "Organigrama del proyecto y asignación de responsabilidades para el equipo de AspireCode.",
   },
   {
     titulo: "Gestión de Riesgos",
@@ -98,7 +98,7 @@ export default function Planeacion() {
 
       {/* Pie decorativo */}
       <p className="absolute bottom-6 text-xs text-[#d3e1f1]">
-        AspideCode · 2025
+        AspireCode · 2025
       </p>
     </div>
   );

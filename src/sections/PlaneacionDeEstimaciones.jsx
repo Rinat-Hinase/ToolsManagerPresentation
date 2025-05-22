@@ -155,7 +155,7 @@ export default function PlaneacionDeEstimaciones() {
       </div>
 
       <p className="mt-12 text-xs text-[#d3e1f1] text-center">
-        AspideCode · Estimación realizada bajo estándar COCOMO
+        AspireCode · Estimación realizada bajo estándar COCOMO
       </p>
     </div>
   );

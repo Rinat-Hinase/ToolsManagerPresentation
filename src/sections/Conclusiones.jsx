@@ -28,7 +28,7 @@ export default function Conclusion() {
         con <strong>BPMN 2.0</strong>, construido sobre <strong>Python</strong>{" "}
         y <strong>SQLite</strong>, versionado con <strong>GitHub</strong>, y
         diseñado con amor por
-        <strong> AspideCode</strong> — este sistema demuestra que la ingeniería
+        <strong> AspireCode</strong> — este sistema demuestra que la ingeniería
         también puede tener estilo.
       </p>
 
@@ -48,7 +48,7 @@ export default function Conclusion() {
 
       {/* Pie decorativo */}
       <p className="absolute bottom-6 text-xs text-[#d3e1f1]">
-        AspideCode · 2025
+        AspireCode · 2025
       </p>
     </div>
   );
