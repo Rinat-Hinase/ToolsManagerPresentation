@@ -20,11 +20,6 @@ const eventos = [
     icono: BugAntIcon,
   },
   {
-    titulo: "Revisión del SRS",
-    descripcion: "Validación del cumplimiento de los requisitos definidos.",
-    icono: ClipboardDocumentCheckIcon,
-  },
-  {
     titulo: "Gestión de Cambios",
     descripcion: "Control estructurado de solicitudes y trazabilidad.",
     icono: ArrowsUpDownIcon,

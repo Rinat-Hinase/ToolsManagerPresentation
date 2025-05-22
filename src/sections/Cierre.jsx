@@ -12,17 +12,12 @@ const pasos = [
   {
     icono: CheckBadgeIcon,
     titulo: "Entrega inicial",
-    descripcion: "Se entregó la versión funcional completa a LALOX.",
-  },
-  {
-    icono: RocketLaunchIcon,
-    titulo: "Uso real",
-    descripcion: "La ferretería empezó a usar ToolsManager en su entorno real.",
+    descripcion: "Constantes cambios desde su entrega inicial.",
   },
   {
     icono: ChatBubbleOvalLeftEllipsisIcon,
     titulo: "Nuevas solicitudes",
-    descripcion: "El cliente pidió nuevas funciones tras probar el sistema.",
+    descripcion: "El cliente pidió nuevas funciones tras ver el sistema.",
   },
   {
     icono: WrenchIcon,
@@ -38,7 +33,7 @@ const pasos = [
   {
     icono: ArrowPathIcon,
     titulo: "Expansión activa",
-    descripcion: "El proyecto sigue creciendo con nuevas versiones y mejoras.",
+    descripcion: "El proyecto sigue creciendo con nuevas mejoras.",
   },
 ];
 
@@ -64,7 +59,7 @@ export default function Cierre() {
         {/* Línea */}
         <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-white/20 z-0" />
 
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-6 z-10 relative">
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-6 z-10 relative">
           {pasos.map(({ icono: Icon, titulo, descripcion }, idx) => (
             <div
               key={idx}
